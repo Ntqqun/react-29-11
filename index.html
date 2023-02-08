@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_18</title>
+    <!-- 1 етап підключення google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <!-- кікаю стилі браузера (уважно що reset.css вище ніж style.css) -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- підключаю файл css з стилями -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-3">
+                    <!-- logo це посилання і картинка -->
+                    <div class="logo">
+                        <a href=""></a>
+                        <img src="images/logo.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <!-- юзається часто в пунктах меню -->
+                    <nav>
+                        <!-- і пункти меню - це список з посиланнями -->
+                        <ul class="menu">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Payment</a></li>
+                            <li><a href="">Shiping</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="col-3">Search</div>
+                <!-- row -->
+            </div>
+
+            <!-- container -->
+        </div>
+
+        <!-- header -->
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">Filter</div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumbs">
+                                <ul>
+                                    <li>
+                                        <a href="Home">Home</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">Laptop and tablets</div>
+                        <div class="col-4">Sort</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">col-4
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="" alt="">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <div class="product-title">iPhone</div>
+                                <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit recusandae, aliquam fuga eos sunt aspernatur dolor amet iure ullam? Necessitatibus magni nostrum eius inventore blanditiis exercitationem aliquam totam perspiciatis
+                                    reiciendis.
+                                </div>
+                                <div class="product-features">
+                                    <span>Type:</span>phone
+                                </div>
+                                <div class="product-features">
+                                    <span>Screen Size:</span>phone
+                                </div>
+                                <div class="product-features">
+                                    <span>Ram:</span>phone
+                                </div>
+                                <div class="product-price">
+                                    <!-- у reset забрати теги -->
+                                    $599 <sup>25</sup>
+                                </div>
+                                <button class="btn btn-more-details">
+                                    More details
+                                </button>
+
+                                <button class="btn btn-add-to cart">
+                                   Add to cart
+                                </button>
+
+
+                            </div>
+                        </div>
+                        <div class="col-4">col-4
+                        </div>
+                        <div class="col-4">col-4
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">Footer</footer>
+
+</body>
+
+</html>
